@@ -1,5 +1,5 @@
 # KMATools
-#SMS BOMB TOOLS FOR TERMUX & WINDOWS
+# SMS BOMB TOOLS FOR TERMUX & WINDOWS
 _________________
 KMA TOOLS V1.3
 
@@ -32,3 +32,5 @@ ____________________
 8-Enter phone number / 
         9-press double ENTER / 
                 10-stop attack = Ctrl+c
+___________________
+امیدوارم از این اسکریپت لذت ببرید و چنل ما رو در دیسکورد و ایسنتاگرام دنبال کنید :)#
