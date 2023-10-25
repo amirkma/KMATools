@@ -1,3 +1,5 @@
+https://cdn.discordapp.com/attachments/1078736354764148777/1166785945748635738/sms_coverf.png?ex=654bc117&is=65394c17&hm=cc8436290b8ca9c4b0a1ace99d6ff608e5d1b6ba435c7906f9dd800a79cdb53e&
+
 
 # SMS BOMB TOOLS FOR TERMUX & WINDOWS
 _________________
@@ -18,20 +20,18 @@ instagram : https://www.instagram.com/amirreza__kma/
 
 2-pip3 install requests 
 
-3-pip3 install os 
-
-4-pip3 install colorma
+3-pip3 install colorma
 
 ____________________
 
-5-git clone https://github.com/amirkma/KMATools.git
+4-git clone https://github.com/amirkma/KMATools.git
 
-6-cd KMATools
+5-cd KMATools
 
-7-python main.py
+6-python main.py
 
-8-Enter phone number / 
-        9-press double ENTER / 
-                10-stop attack = Ctrl+c
+7-Enter phone number / 
+        8-press double ENTER / 
+                9-stop attack = Ctrl+c
 ___________________
 امیدوارم از این اسکریپت لذت ببرید و چنل ما رو در دیسکورد و ایسنتاگرام دنبال کنید :)
