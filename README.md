@@ -1,4 +1,6 @@
 # KMATools
+#SMS BOMB TOOLS FOR TERMUX & WINDOWS
+_________________
 KMA TOOLS V1.3
 
 my discord : https://discord.gg/FMrCVEfhp3
@@ -11,20 +13,22 @@ instagram : https://www.instagram.com/amirreza__kma/
 امیدوارم از این اسکریپت لذت ببرید و چنل ما رو در دیسکورد و ایسنتاگرام دنبال کنید :)
 # سپس برای اجرای اسکریپت دستورات زیر را وارد کنید
 
-pip install git
+1-pip install git
 
-pip3 install requests 
+2-pip3 install requests 
 
-pip3 install os 
+3-pip3 install os 
 
-pip3 install colorma
+4-pip3 install colorma
 
 ____________________
 
-git clone https://github.com/amirkma/KMATools.git
+5-git clone https://github.com/amirkma/KMATools.git
 
-cd KMATools
+6-cd KMATools
 
-python main.py
+7-python main.py
 
-Enter phone number / press double ENTER / stop attack = Ctrl+c
+8-Enter phone number / 
+        9-press double ENTER / 
+                10-stop attack = Ctrl+c
