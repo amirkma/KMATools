@@ -1,4 +1,4 @@
-https://cdn.discordapp.com/attachments/1078736354764148777/1166785945748635738/sms_coverf.png?ex=654bc117&is=65394c17&hm=cc8436290b8ca9c4b0a1ace99d6ff608e5d1b6ba435c7906f9dd800a79cdb53e&
+![sms coverf](https://github.com/amirkma/KMATools/assets/114400779/66772693-60cb-4935-98bb-1fa3c1720d26)
 
 
 # SMS BOMB TOOLS FOR TERMUX & WINDOWS
@@ -35,3 +35,4 @@ ____________________
                 9-stop attack = Ctrl+c
 ___________________
 امیدوارم از این اسکریپت لذت ببرید و چنل ما رو در دیسکورد و ایسنتاگرام دنبال کنید :)
+
