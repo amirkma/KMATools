@@ -31,7 +31,7 @@ ____________________
 6-python main.py
 
 7-Enter phone number / 
-        8-press double ENTER / 
+        8-press ENTER to continue... / 
                 9-stop attack = Ctrl+c
 ___________________
 امیدوارم از این اسکریپت لذت ببرید و چنل ما رو در دیسکورد و ایسنتاگرام دنبال کنید :)
