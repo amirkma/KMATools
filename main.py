@@ -103,7 +103,7 @@ def snap(phone):
     try:
         snapR = post(timeout=5, url="https://app.snapp.taxi/api/api-passenger-oauth/v2/otp", headers=snapH, json=snapD).text
         if "OK" in snapR:
-            Write.Print("  [+] (Snap) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Snap) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -112,7 +112,7 @@ def gap(phone):
     try:
         gapR = get(timeout=5, url="https://core.gap.im/v1/user/add.json?mobile=%2B{}".format(phone.split("+")[1]), headers=gapH).text
         if "OK" in gapR:
-            Write.Print("  [+] (Gap) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Gap) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -122,7 +122,7 @@ def tap30(phone):
     try:
         tap30R = post(timeout=5, url="https://tap33.me/api/v2/user", headers=tap30H, json=tap30D).json()
         if tap30R['result'] == "OK":
-            Write.Print("  [+] (Tap30) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Tap30) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -141,7 +141,7 @@ def divar(phone):
     try:
         divarR = post(timeout=5, url="https://api.divar.ir/v5/auth/authenticate", headers=divarH, json=divarD).json()
         if divarR["authenticate_response"] == "AUTHENTICATION_VERIFICATION_CODE_SENT":
-            Write.Print("  [+] (Divar) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Divar) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -158,7 +158,7 @@ def torob(phone):
     try:
         torobR = get(timeout=5, url=f"https://api.torob.com/a/phone/send-pin/?phone_number={phone}", headers=torobH).json()
         if torobR["message"] == "pin code sent":
-            Write.Print("  [+] (Torob) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Torob) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -178,7 +178,7 @@ def snapfood(phone):
     try:
         sfoodR = post(timeout=5, url=sfoodU, headers=sfoodH, data=sfoodD).json()
         if sfoodR['status'] == True:
-            Write.Print("  [+] (Snapfood) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Snapfood) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -189,7 +189,7 @@ def sheypoor(phone):
     try:
         sheyporR = post(timeout=5, url='https://www.sheypoor.com/auth', headers=sheyporH, data=sheyporD).json()
         if sheyporR['success'] == True:
-            Write.Print("  [+] (Sheypoor) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Sheypoor) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -213,7 +213,7 @@ def okorosh(phone):
     try:
         okR = post(timeout=5, url=okU, headers=okH, json=okJ).text
         if 'success' in okR:
-            Write.Print("  [+] (Ofoghkorosh) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Ofoghkorosh) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -224,7 +224,7 @@ def alibaba(phone):
     try:
         alibabaR = post(timeout=5, url='https://ws.alibaba.ir/api/v3/account/mobile/otp', headers=alibabaH, json=alibabaD ).json()
         if alibabaR["result"]["success"] == True:
-            Write.Print("  [+] (Ali bala) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Ali bala) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -241,7 +241,7 @@ def smarket(phone):
     try:
         smarketR = post(timeout=5, url=smarketU, headers=smarketH).json()
         if smarketR['status'] == True:
-            Write.Print("  [+] (Snap market) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Snap market) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -274,7 +274,7 @@ def gapfilm(phone):
     try:
         gaR = post(timeout=5, url=gaU, headers=gaH, json=gaJ).json()
         if gaR['Code'] == 1:
-            Write.Print("  [+] (Gapfilm) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Gapfilm) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -284,7 +284,7 @@ def sTrip(phone):
     try:
         sTripR = post(timeout=5, url='https://www.snapptrip.com/register', headers=sTripH, json=sTripD).json()
         if sTripR['status_code'] == 200:
-            Write.Print("  [+] (Strip) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Strip) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -307,7 +307,7 @@ def filmnet(phone):
     try:
         Filmnet = get(timeout=5, url=fnU, headers=fNh).json()
         if Filmnet['meta']['operation_result'] == 'success':
-            Write.Print("  [+] (FilmNet) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (FilmNet) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -326,7 +326,7 @@ def drdr(phone):
     try:
         drdr = post(timeout=5, url=dru, headers=drh, params={"phoneNumber":phone ,"userType":"PATIENT"}).json()
         if drdr['status'] == 'success':
-            Write.Print("  [+] (Dr Dr) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Dr Dr) Code Was Sent \n",Colors.green,interval=0.0000)
             return True
     except:
         pass
@@ -346,7 +346,7 @@ def itool(phone):
     try:
         ok = post(timeout=5, url=itU, headers=itH, json=itJ).json()
         if ok['success'] == True:
-            Write.Print("  [+] (Itool) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Itool) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -367,7 +367,7 @@ def anar(phone):
     try:
         ok = post(timeout=5, url=anrU, headers=anrH, json=anrJ).json()      
         if ok['status'] == True:
-            Write.Print("  [+] (AnarGift) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (AnarGift) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except :
         pass
@@ -391,7 +391,7 @@ def azki(phone):
     try:
         ok = post(timeout=5, url=azkU, headers=azkH).json()
         if ok["messageCode"] == 201:
-            Write.Print("  [+] (Azki) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Azki) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -412,7 +412,7 @@ def nobat(phone):
     try:
         ok = post(timeout=5, url=noU, headers=noH, json=noJ).json()
         if ok["status"] != 'failed':
-            Write.Print("  [+] (Nobat) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Nobat) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -436,7 +436,7 @@ def chmdon(phone):
     try:
         ok = post(timeout=5, url=chU, headers=chH, json=chJ).json()
         if ok["status"] == 'ok':
-            Write.Print("  [+] (Chmdon) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Chmdon) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -461,7 +461,7 @@ def bn(phone):
     try:
         ok = post(timeout=5, url=bnU, headers=bnH, json=bnJ).json()
         if ok["status"] == 'success':
-            Write.Print("  [+] (BaniMode) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (BaniMode) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -486,7 +486,7 @@ def lendo(phone):
     try:
         lendoR = post(timeout=5, url=leU, headers=leH, data=leD).text
         if 'تایید شماره تلفن همراه' in lendoR:
-            Write.Print("  [+] (Lendo) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Lendo) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -512,7 +512,7 @@ def olgoo(phone):
     try:
         olgoo = post(timeout=5, url=olU, headers=olH, data=olD).text
         if 'مدت زمان باقی‌مانده تا دریافت مجدد کد' in olgoo:
-            Write.Print("  [+] (NashrOlgoo) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (NashrOlgoo) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -533,7 +533,7 @@ def pakhsh(phone):
     try:
         ok = post(timeout=5, url=paU, headers=paH, data=paD).json()
         if ok['code'] == '1':
-            Write.Print("  [+] (PakhshShop) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (PakhshShop) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -553,7 +553,7 @@ def didnegar(phone):
     try:
         ok = post(timeout=5, url=paU, headers=paH, data=paD).json()
         if ok['code'] == '1':
-            Write.Print("  [+] (Didenegar) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Didenegar) Code Was Sent \n",Colors.green,interval=0.00000)
             return True
     except:
         pass
@@ -575,7 +575,7 @@ def baskol(phone):
     try:
         ok = post(timeout=5, url=baU, headers=baH, json=baJ).json()
         if ok['status'] == True:
-            Write.Print("  [+] (Baskol) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Baskol) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -598,7 +598,7 @@ def kilid(phone):
     try:
         ok = post(timeout=5, url=kiU, headers=kiH, json=kiJ).json()
         if ok['status'] == 'SUCCESS':
-            Write.Print("  [+] (Kilid) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Kilid) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -624,7 +624,7 @@ def basalam(phone):
     try:
         ok = post(timeout=5, url=baU, headers=baH, json=baJ)
         if ok.status_code == 200:
-            Write.Print("  [+] (Basalam) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Basalam) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -645,7 +645,7 @@ def see5(phone):
     ok = post(timeout=5, url=seU, headers=seH, data=seD).text
     try:
         if ok == 'send_sms':
-            Write.Print("  [+] (See5) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (See5) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -669,7 +669,7 @@ def ghabzino(phone):
     try:
         ok = get(timeout=5, url=ghU, headers=ghH, json=ghJ).json()
         if ok["Parameters"] != None:
-            Write.Print("  [+] (Ghabzino) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Ghabzino) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -692,7 +692,7 @@ def simkhanF(phone):
     try:
         ok = post(timeout=5, url=ghU, headers=ghH, json=ghJ).json()
         if ok['Message'] == "ثبت نام شما با موفقیت انجام شد":
-            Write.Print("  [+] (Simkhan) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Simkhan) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -715,7 +715,7 @@ def simkhanT(phone):
     try:
         ok = post(timeout=5, url=ghU, headers=ghH, json=ghJ).json()
         if ok['Message'] == "ثبت نام شما با موفقیت انجام شد":
-            Write.Print("  [+] (SIMkhan) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (SIMkhan) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -735,7 +735,7 @@ def drsaina(phone):
     try:
         ok = post(timeout=5, url=ghU, headers=ghH, data=ghD).text
         if 'کد تایید 6 رقمی پیامک شده به شماره' in ok:
-            Write.Print("  [+] (Dr saina) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Dr saina) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -756,7 +756,7 @@ def binjo(phone):
     try:
         ok = get(timeout=5, url=ghU, headers=ghH, verify=False).json()
         if ok['status'] == 'ok':
-            Write.Print("  [+] (Binjo) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Binjo) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -778,7 +778,7 @@ def limome(phone):
     try:
         liR = post(timeout=5, url=liU, headers=liH, data=liD).json()
         if liR['status'] == 'success':
-            Write.Print("  [+] (Limome) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Limome) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -797,7 +797,7 @@ def bimito(phone):
     try:
         liR = post(timeout=5, url=liU, headers=liH).json()
         if liR['message'] == 'کاربر قبلا ثبت نام نکرده است':
-            Write.Print("  [+] (Bimito) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (Bimito) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -816,7 +816,7 @@ def bimitoVip(phone):
     try:
         liR = post(timeout=5, url=liU, headers=liH).json()
         if liR['message'] == 'کاربر قبلا ثبت نام نشده است':
-            Write.Print("  [+] (BimitoVip) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (BimitoVip) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except:
         pass
@@ -834,7 +834,7 @@ def seebirani(phone):
 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 OPR/82.0.4227.33'}
     try:
         post(timeout=5, url=liU, headers=liH, json=liJ)
-        Write.Print("  [+] (Seebirani) Code Was Sent \n",Colors.green,interval=0.0000001)
+        Write.Print("  [+] (Seebirani) Code Was Sent \n",Colors.green,interval=0.000000)
         return True
     except:
         pass
@@ -853,7 +853,7 @@ def mihanpezeshk(phone):
 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'}
     try:
         gaR = post(url=gaU, headers=gaH, data=gaD)
-        Write.Print("  [+] (Mihanpezheshk) Code Was Sent \n",Colors.green,interval=0.0000001)
+        Write.Print("  [+] (Mihanpezheshk) Code Was Sent \n",Colors.green,interval=0.000000)
         return True
     except:
         pass
@@ -884,7 +884,7 @@ def mek(phone):
     try:
         meR = post(url=meU, headers=meH, data=meD).json()
         if meR['isSuccess']:
-            Write.Print("  [+] (HamrahMechanic) Code Was Sent \n",Colors.green,interval=0.0000001)
+            Write.Print("  [+] (HamrahMechanic) Code Was Sent \n",Colors.green,interval=0.000000)
             return True
     except: pass
 # ================================[SEND SMS FUNC]================================
