@@ -23,7 +23,7 @@ instagram : https://www.instagram.com/amirreza__kma/
 
 1-extract KMtools v1.5.rar
 
-2-Place the license in license.txt
+2-Place the license in license.txt and save the file
 
 3-open the app and enjoy it:)
 ____________________
