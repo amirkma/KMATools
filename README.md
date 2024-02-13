@@ -8,11 +8,11 @@
 _________________
 # Social media 🌐
 _________________
-KMA TOOLS V1.3
+KMA TOOLS V1.5
 
-my discord : []https://discord.gg/FMrCVEfhp3
+my discord : https://discord.gg/FMrCVEfhp3
 
-ID: ! AMIR#0001
+ID: amir0024
 
 instagram : https://www.instagram.com/amirreza__kma/
 
