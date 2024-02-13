@@ -17,15 +17,16 @@ ID: ! AMIR#0001
 instagram : https://www.instagram.com/amirreza__kma/
 
 
-# سپس برای اجرای اسکریپت دستورات زیر را وارد کنید
+# سپس برای اجرای فایل دستورات زیر را وارد کنید
 
-1-pip install git
+1-extract KMtools v1.5.rar
 
-2-pip3 install requests 
+2-Place the license in license.txt
 
-3-pip3 install colorma
-
+3-open the app and enjoy it:)
 ____________________
+
+# برای اجرای ترموکس از دستورات زیر استفاده کنید
 
 4-git clone https://github.com/amirkma/KMATools.git
 
